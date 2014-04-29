@@ -11,5 +11,6 @@ cinst GoogleChrome
 cinst 7zip.install
 
 #install vmware workstation 10
+#install synctoy
 
 Install-WindowsUpdate -acceptEula
