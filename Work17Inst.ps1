@@ -7,10 +7,10 @@ Set-CornerNavigationOptions -DisableUpperRightCornerShowCharms -DisableUpperLeft
 Enable-RemoteDesktop
 Install-WindowsUpdate -acceptEula
 
-cinst GoogleChrome
-cinst 7zip.install
+#cinst GoogleChrome
+#cinst 7zip.install
 
 #install vmware workstation 10
 #install synctoy
 
-Install-WindowsUpdate -acceptEula
+#Install-WindowsUpdate -acceptEula
