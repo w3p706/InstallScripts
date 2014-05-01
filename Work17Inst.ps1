@@ -1,6 +1,6 @@
 #http://trycatchfail.com/blog/post/Painless-Workstation-Setup-with-Boxstarter.aspx
 
-Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-ExplorerOptions -showProtectedOSFiles -showFileExtensions
 Set-StartScreenOptions -EnableBootToDesktop -EnableDesktopBackgroundOnStart -EnableListDesktopAppsFirst
 
 
