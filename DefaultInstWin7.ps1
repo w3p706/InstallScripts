@@ -5,13 +5,17 @@ Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtec
 Enable-RemoteDesktop
 Install-WindowsUpdate -acceptEula
 
-cinst DotNet4.5.1
+<#
+cinst DotNet4.5
 cinst DotNet3.5
 cinst jre8
 cinst GoogleChrome
 cinst 7zip.install
-cinst flashplayeractivex
-cinst adobereader
 cinst vlc
 cinst iTunes
+#>
+cinst flashplayeractivex
+cinst adobereader
+
+Install-WindowsUpdate -acceptEula
 
